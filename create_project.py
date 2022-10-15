@@ -8,7 +8,7 @@ import pandas as pd
 import zarr
 
 from skimage.measure import regionprops
-from tqdm import tqdm
+from tqdm import tqdm, trange
 
 ROOT = "/g/kreshuk/data/marioni/shila/mouse-atlas-2020/ngff"
 CHANNEL_TO_NAME = {0: "membrane-marker1", 1: "membrane-marker2", 2: "membrane-marker3", 3: "nucleus-marker"}
@@ -16,6 +16,9 @@ CHANNEL_TO_NAME = {0: "membrane-marker1", 1: "membrane-marker2", 2: "membrane-ma
 # since the nuclei are just given as binary mask and don't provide much information
 # SEG_NAMES = ["cells", "nuclei"]
 SEG_NAMES = ["cells"]
+
+# TODO determine a good spot radius
+SPOT_RADIUS = 0.5
 
 
 #
@@ -124,6 +127,60 @@ def add_segmentation_data(ds_name):
             )
 
 
+def scale_table_and_compute_bounding_box(table, ds_folder, pos):
+    # read the image metadata
+    image_path = os.path.join(ds_folder, f"MMStack_Pos{pos}.ome.zarr")
+    with zarr.open(image_path, "r") as f:
+        mscales = f.attrs["multiscales"][0]
+        shape = f["0"].shape
+
+    # get the scale information
+    scale = mscales["datasets"][0]["coordinateTransformations"][0]["scale"]
+
+    # get rid of the channel axis
+    assert len(scale) == 4
+    scale = scale[1:]
+    assert len(shape) == 4
+    shape = shape[1:]
+
+    # scale the table coordinate columns
+    table["x"] *= scale[2]
+    table["y"] *= scale[1]
+    table["z"] *= scale[0]
+
+    # bounding box along the z axis: min max of the z coordinates
+    min_z, max_z = table["z"].min(), table["z"].max()
+    # the other bounding boxes correspond to the image shape
+    min_y, max_y = 0, shape[1] * scale[1]
+    min_x, max_x = 0, shape[2] * scale[2]
+
+    return table, [min_z, min_y, min_x], [max_z, max_y, max_x]
+
+
+def add_spot_data(ds_name):
+    ds_folder = os.path.join(ROOT, ds_name)
+    sources = mobie.metadata.read_dataset_metadata(ds_folder)["sources"]
+    n_pos = len(glob(os.path.join(ds_folder, "*.ome.zarr")))
+
+    # temporary loc for the spot table data that was downloaded from dropbox
+    table_root = "./spot_table_data"
+    for pos in trange(n_pos, desc="Add spot tables"):
+        name = f"MMStack_Pos{pos}_genes"
+        if name in sources:
+            continue
+
+        table_path = os.path.join(
+            table_root,
+            f"segmentedData-Tim-120919-Pos{pos}-1error-sqrt6-2020-02-12.csv"
+        )
+        assert os.path.exists(table_path)
+        table = pd.read_csv(table_path)
+        table.insert(loc=0, column="spot_id", value=np.arange(1, len(table) + 1).astype("uint64"))
+        table, bb_min, bb_max = scale_table_and_compute_bounding_box(table, ds_folder, pos)
+        mobie.add_spots(table, ROOT, ds_name, name, unit="micrometer",
+                        bounding_box_min=bb_min, bounding_box_max=bb_max)
+
+
 #
 # Functionality for adding view metadata
 #
@@ -186,7 +243,14 @@ def add_position_views(ds_name, clims):
             {"lut": "glasbey", "opacity": 0.5, "visible": False, "showTable": False} for seg_name in SEG_NAMES
         ])
 
-        # TODO add the spot sources for this view
+        # add the spot sources for this view
+        spot_sources = [[f"{name}_genes"]]
+        sources.extend(spot_sources)
+        display_group_names.extend(["genes"])
+        source_types.extend(["spots"])
+        display_settings.extend([
+            {"lut": "glasbey", "opacity": 0.5, "visible": False, "showTable": False, "spotRadius": SPOT_RADIUS}
+        ])
 
         position_view = mobie.metadata.get_view(display_group_names, source_types, sources, display_settings,
                                                 is_exclusive=True, menu_name="positions")
@@ -198,10 +262,11 @@ def add_position_views(ds_name, clims):
     mobie.metadata.add_view_to_dataset(ds_folder, "default", default_view)
 
 
-def add_grid_view(ds_name, clims):
+def add_grid_view(ds_name, clims, n_positions=None, view_name=None):
     ds_folder = os.path.join(ROOT, ds_name)
 
-    n_positions = len(glob(os.path.join(ds_folder, "*.ome.zarr")))
+    if n_positions is None:
+        n_positions = len(glob(os.path.join(ds_folder, "*.ome.zarr")))
     position_names = [f"MMStack_Pos{i}" for i in range(n_positions)]
 
     # add image sources
@@ -241,7 +306,14 @@ def add_grid_view(ds_name, clims):
         for seg_name in SEG_NAMES
     })
 
-    # TODO add spot sources
+    # add spot sources
+    sources = [
+        pos_sources + [f"{name}_genes"] for pos_sources, name in zip(sources, position_names)
+    ]
+    display_groups.update({f"{name}_genes": "genes" for name in position_names})
+    display_group_settings.update({
+        "genes": {"lut": "glasbey", "opacity": 0.5, "visible": False, "showTable": False, "spotRadius": SPOT_RADIUS}
+    })
 
     # create a table source and table for the grid view
     table_source = "all_positions"
@@ -251,7 +323,7 @@ def add_grid_view(ds_name, clims):
     })
     mobie.metadata.add_regions_to_dataset(ds_folder, table_source, table)
 
-    view_name = "all_positions"
+    view_name = "all_positions" if view_name is None else view_name
     grid_view = mobie.metadata.get_grid_view(
         ds_folder, view_name, sources,
         menu_name="bookmarks", table_source=table_source,
@@ -264,12 +336,12 @@ def add_grid_view(ds_name, clims):
 def create_dataset(ds_name):
     add_image_data(ds_name)
     add_segmentation_data(ds_name)
-    # TODO
-    # add_spot_table_data()
+    add_spot_data(ds_name)
 
     clims = compute_clims(ds_name)
     add_position_views(ds_name, clims)
     add_grid_view(ds_name, clims)
+    add_grid_view(ds_name, clims, n_positions=2, view_name="small-grid")
 
     # TODO
     # add_idr_data_links()
