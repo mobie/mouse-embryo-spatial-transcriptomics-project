@@ -8,7 +8,8 @@ def fix_data(path):
     data_list = []
     chunk_list = []
     with zarr.open(path, "a") as f:
-        for ds_name in range(1, 5):
+        n_scales = len(f)
+        for ds_name in range(1, n_scales):
             ds_name = str(ds_name)
             data = f[ds_name][:].astype("uint16")
             chunks = f[ds_name].chunks
@@ -18,7 +19,7 @@ def fix_data(path):
 
     store = zarr.DirectoryStore(path, dimension_separator="/")
     with zarr.open(store, mode="a") as f:
-        for ii, ds_name in enumerate(range(1, 5)):
+        for ii, ds_name in enumerate(range(1, n_scales)):
             ds_name = str(ds_name)
             data = data_list[ii]
             chunks = chunk_list[ii]
