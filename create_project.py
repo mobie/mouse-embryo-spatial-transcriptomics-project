@@ -236,9 +236,6 @@ def create_dataset(ds_name):
     clims = compute_clims(ds_name)
     add_position_views(ds_name, clims)
 
-    # TODO
-    # add_idr_data_links()
-
 
 def create_project():
     if not mobie.metadata.project_exists(ROOT):
