@@ -12,10 +12,10 @@ from tqdm import tqdm
 
 def compute_gene_profiles(data_path, gene_table_path, table_folder):
     out_table_path = os.path.join(table_folder, "gene_table.tsv")
+    print(out_table_path)
     if os.path.exists(out_table_path):
         return pd.read_csv(out_table_path, sep="\t")
 
-    print(data_path)
     with zarr.open(data_path, "r") as f:
         ds = f["labels/cells"]
         mscales = ds.attrs["multiscales"][0]
@@ -23,7 +23,7 @@ def compute_gene_profiles(data_path, gene_table_path, table_folder):
         labels = ds["0"][:]
     gene_table = pd.read_csv(gene_table_path, sep="\t")
 
-    label_ids = np.unique(labels)
+    label_ids = np.unique(labels)[1:]
     gene_ids = np.unique(gene_table["geneID"])
     gene_profiles = {label_id: [] for label_id in label_ids}
 
@@ -31,6 +31,8 @@ def compute_gene_profiles(data_path, gene_table_path, table_folder):
         z, y, x = row.z, row.y, row.x
         z, y, x = int(z / resolution[0]), int(y / resolution[1]), int(x / resolution[2])
         label_id = labels[z, y, x]
+        if label_id == 0:
+            continue
         gene_profiles[label_id].append(row.geneID)
 
     gene_profiles = {label_id: np.unique(v, return_counts=True) for label_id, v in gene_profiles.items()}
