@@ -7,7 +7,11 @@ import zarr
 from tqdm import tqdm
 
 ROOT = "/g/kreshuk/data/marioni/shila/mouse-atlas-2020/ngff"
-CHANNEL_TO_NAME = {0: "membrane-marker1", 1: "membrane-marker2", 2: "membrane-marker3", 3: "nucleus-marker"}
+# CHANNEL_TO_NAME = {
+#    0: "membrane-marker1", 1: "membrane-marker2", 2: "membrane-marker3", 3: "nucleus-marker"
+# }
+CHANNEL_TO_NAME = {0: "membrane-marker", 3: "nucleus-marker"}
+
 # NOTE: we only add the cell segmentation,
 # since the nuclei are just given as binary mask and don't provide much information
 # SEG_NAMES = ["cells", "nuclei"]

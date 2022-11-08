@@ -1,0 +1,6787 @@
+{
+  "is2D": false,
+  "sources": {
+    "MMStack_Pos0_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos0.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos0.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos0_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos0_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          20.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos0_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos0_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos0.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos0.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos0_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos0.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos0.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos10_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos10.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos10.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos10_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos10_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          24.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos10_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos10_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos10.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos10.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos10_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos10.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos10.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos11_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos11.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos11.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos11_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos11_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          20.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos11_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos11_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos11.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos11.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos11_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos11.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos11.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos12_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos12.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos12.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos12_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos12_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          24.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos12_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos12_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos12.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos12.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos12_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos12.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos12.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos13_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos13.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos13.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos13_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos13_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          24.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos13_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos13_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos13.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos13.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos13_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos13.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos13.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos14_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos14.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos14.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos14_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos14_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          24.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos14_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos14_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos14.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos14.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos14_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos14.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos14.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos15_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos15.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos15.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos15_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos15_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          24.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos15_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos15_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos15.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos15.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos15_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos15.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos15.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos16_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos16.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos16.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos16_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos16_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          24.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos16_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos16_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos16.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos16.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos16_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos16.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos16.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos17_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos17.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos17.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos17_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos17_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          24.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos17_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos17_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos17.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos17.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos17_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos17.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos17.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos18_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos18.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos18.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos18_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos18_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          24.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos18_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos18_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos18.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos18.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos18_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos18.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos18.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos19_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos19.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos19.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos19_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos19_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          24.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos19_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos19_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos19.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos19.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos19_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos19.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos19.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos1_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos1.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos1.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos1_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos1_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          20.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos1_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos1_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos1.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos1.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos1_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos1.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos1.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos20_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos20.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos20.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos20_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos20_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          24.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos20_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos20_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos20.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos20.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos20_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos20.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos20.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos21_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos21.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos21.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos21_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos21_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          24.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos21_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos21_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos21.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos21.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos21_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos21.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos21.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos22_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos22.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos22.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos22_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos22_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          24.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos22_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos22_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos22.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos22.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos22_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos22.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos22.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos23_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos23.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos23.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos23_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos23_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          24.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos23_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos23_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos23.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos23.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos23_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos23.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos23.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos24_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos24.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos24.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos24_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos24_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          24.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos24_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos24_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos24.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos24.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos24_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos24.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos24.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos25_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos25.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos25.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos25_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos25_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          24.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos25_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos25_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos25.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos25.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos25_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos25.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos25.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos26_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos26.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos26.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos26_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos26_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          24.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos26_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos26_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos26.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos26.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos26_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos26.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos26.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos27_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos27.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos27.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos27_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos27_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          24.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos27_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos27_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos27.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos27.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos27_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos27.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos27.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos28_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos28.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos28.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos28_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos28_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          24.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos28_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos28_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos28.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos28.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos28_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos28.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos28.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos29_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos29.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos29.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos29_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos29_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          24.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos29_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos29_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos29.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos29.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos29_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos29.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos29.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos2_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos2.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos2.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos2_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos2_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          20.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos2_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos2_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos2.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos2.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos2_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos2.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos2.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos30_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos30.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos30.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos30_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos30_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          24.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos30_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos30_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos30.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos30.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos30_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos30.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos30.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos31_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos31.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos31.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos31_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos31_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          24.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos31_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos31_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos31.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos31.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos31_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos31.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos31.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos32_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos32.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos32.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos32_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos32_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          24.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos32_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos32_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos32.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos32.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos32_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos32.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos32.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos33_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos33.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos33.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos33_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos33_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          24.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos33_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos33_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos33.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos33.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos33_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos33.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos33.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos34_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos34.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos34.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos34_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos34_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          24.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos34_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos34_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos34.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos34.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos34_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos34.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos34.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos35_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos35.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos35.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos35_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos35_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          24.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos35_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos35_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos35.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos35.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos35_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos35.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos35.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos36_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos36.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos36.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos36_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos36_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          24.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos36_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos36_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos36.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos36.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos36_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos36.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos36.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos37_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos37.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos37.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos37_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos37_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          24.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos37_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos37_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos37.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos37.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos37_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos37.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos37.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos38_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos38.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos38.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos38_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos38_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          24.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos38_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos38_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos38.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos38.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos38_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos38.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos38.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos39_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos39.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos39.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos39_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos39_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          24.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos39_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos39_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos39.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos39.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos39_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos39.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos39.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos3_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos3.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos3.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos3_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos3_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          20.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos3_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos3_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos3.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos3.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos3_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos3.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos3.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos4_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos4.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos4.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos4_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos4_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          24.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos4_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos4_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos4.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos4.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos4_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos4.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos4.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos5_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos5.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos5.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos5_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos5_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          20.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos5_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos5_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos5.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos5.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos5_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos5.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos5.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos6_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos6.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos6.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos6_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos6_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          24.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos6_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos6_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos6.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos6.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos6_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos6.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos6.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos7_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos7.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos7.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos7_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos7_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          20.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos7_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos7_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos7.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos7.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos7_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos7.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos7.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos8_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos8.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos8.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos8_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos8_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          24.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos8_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos8_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos8.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos8.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos8_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos8.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos8.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos9_cells": {
+      "segmentation": {
+        "imageData": {
+          "ome.zarr": {
+            "relativePath": "MMStack_Pos9.ome.zarr/labels/cells"
+          },
+          "ome.zarr.s3": {
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos9.ome.zarr/labels/cells"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos9_cells"
+          }
+        }
+      }
+    },
+    "MMStack_Pos9_genes": {
+      "spots": {
+        "boundingBoxMax": [
+          348.16,
+          348.16,
+          20.0
+        ],
+        "boundingBoxMin": [
+          0,
+          0,
+          4.0
+        ],
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/MMStack_Pos9_genes"
+          }
+        },
+        "unit": "micrometer"
+      }
+    },
+    "MMStack_Pos9_membrane-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 0,
+            "relativePath": "MMStack_Pos9.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 0,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos9.ome.zarr"
+          }
+        }
+      }
+    },
+    "MMStack_Pos9_nucleus-marker": {
+      "image": {
+        "imageData": {
+          "ome.zarr": {
+            "channel": 3,
+            "relativePath": "MMStack_Pos9.ome.zarr"
+          },
+          "ome.zarr.s3": {
+            "channel": 3,
+            "s3Address": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0138A/TimEmbryos-120919/HybCycle_29/MMStack_Pos9.ome.zarr"
+          }
+        }
+      }
+    },
+    "positions": {
+      "regions": {
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/positions"
+          }
+        }
+      }
+    }
+  },
+  "views": {
+    "MMStack_Pos0": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              271.0,
+              5418.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos0_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              113.0,
+              3433.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos0_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos0_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos0_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos1": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              386.0,
+              5355.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos1_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              189.0,
+              3531.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos1_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos1_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos1_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos10": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              350.0,
+              5792.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos10_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              127.0,
+              3903.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos10_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos10_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos10_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos11": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              303.0,
+              4898.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos11_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              111.0,
+              3997.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos11_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos11_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos11_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos12": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              294.0,
+              5035.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos12_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              108.0,
+              4128.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos12_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos12_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos12_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos13": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              321.0,
+              5928.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos13_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              128.0,
+              4207.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos13_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos13_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos13_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos14": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              319.0,
+              8877.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos14_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              111.0,
+              3330.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos14_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos14_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos14_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos15": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              374.0,
+              6756.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos15_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              143.0,
+              3838.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos15_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos15_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos15_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos16": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              326.0,
+              7053.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos16_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              124.0,
+              3895.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos16_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos16_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos16_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos17": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              304.0,
+              5622.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos17_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              116.0,
+              3892.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos17_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos17_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos17_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos18": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              379.0,
+              8722.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos18_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              143.0,
+              4107.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos18_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos18_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos18_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos19": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              299.0,
+              4028.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos19_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              107.0,
+              3735.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos19_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos19_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos19_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos2": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              349.0,
+              3459.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos2_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              152.0,
+              3637.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos2_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos2_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos2_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos20": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              350.0,
+              4984.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos20_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              145.0,
+              4301.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos20_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos20_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos20_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos21": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              272.0,
+              4180.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos21_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              108.0,
+              3933.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos21_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos21_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos21_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos22": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              283.0,
+              5158.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos22_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              100.0,
+              2579.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos22_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos22_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos22_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos23": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              368.0,
+              7010.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos23_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              149.0,
+              4324.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos23_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos23_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos23_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos24": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              278.0,
+              5383.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos24_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              110.0,
+              4196.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos24_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos24_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos24_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos25": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              292.0,
+              5952.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos25_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              115.0,
+              4276.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos25_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos25_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos25_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos26": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              277.0,
+              3716.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos26_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              104.0,
+              3979.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos26_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos26_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos26_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos27": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              303.0,
+              3728.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos27_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              130.0,
+              4244.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos27_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos27_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos27_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos28": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              353.0,
+              3531.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos28_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              150.0,
+              3918.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos28_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos28_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos28_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos29": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              311.0,
+              4264.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos29_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              109.0,
+              3765.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos29_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos29_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos29_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos3": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              303.0,
+              3296.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos3_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              117.0,
+              3551.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos3_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos3_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos3_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos30": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              288.0,
+              4763.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos30_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              102.0,
+              3364.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos30_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos30_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos30_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos31": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              341.0,
+              6466.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos31_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              173.0,
+              5040.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos31_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos31_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos31_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos32": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              321.0,
+              3946.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos32_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              132.0,
+              3995.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos32_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos32_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos32_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos33": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              275.0,
+              7579.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos33_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              107.0,
+              4439.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos33_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos33_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos33_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos34": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              343.0,
+              9440.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos34_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              184.0,
+              4577.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos34_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos34_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos34_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos35": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              324.0,
+              3733.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos35_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              141.0,
+              4138.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos35_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos35_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos35_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos36": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              341.0,
+              5180.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos36_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              140.0,
+              4398.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos36_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos36_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos36_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos37": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              282.0,
+              2903.769999999553
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos37_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              103.0,
+              3491.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos37_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos37_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos37_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos38": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              280.0,
+              3164.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos38_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              109.0,
+              3690.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos38_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos38_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos38_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos39": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              286.0,
+              3110.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos39_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              103.0,
+              3668.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos39_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos39_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos39_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos4": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              281.0,
+              3946.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos4_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              104.0,
+              3380.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos4_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos4_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos4_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos5": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              305.0,
+              4408.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos5_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              111.0,
+              3789.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos5_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos5_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos5_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos6": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              402.0,
+              7344.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos6_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              213.0,
+              3709.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos6_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos6_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos6_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos7": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              309.0,
+              6521.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos7_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              118.0,
+              3817.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos7_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos7_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos7_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos8": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              297.0,
+              7453.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos8_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              107.0,
+              3732.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos8_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos8_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos8_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "MMStack_Pos9": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              287.0,
+              5044.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos9_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              101.0,
+              2793.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos9_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos9_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos9_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "positions"
+    },
+    "default": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              271.0,
+              5418.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos0_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              113.0,
+              3433.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos0_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos0_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos0_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        }
+      ],
+      "uiSelectionGroup": "bookmarks"
+    },
+    "small-stitched-view": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              271.0,
+              9440.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos0_membrane-marker",
+              "MMStack_Pos1_membrane-marker",
+              "MMStack_Pos2_membrane-marker",
+              "MMStack_Pos3_membrane-marker",
+              "MMStack_Pos4_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              100.0,
+              5040.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos0_nucleus-marker",
+              "MMStack_Pos1_nucleus-marker",
+              "MMStack_Pos2_nucleus-marker",
+              "MMStack_Pos3_nucleus-marker",
+              "MMStack_Pos4_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos0_genes",
+              "MMStack_Pos1_genes",
+              "MMStack_Pos2_genes",
+              "MMStack_Pos3_genes",
+              "MMStack_Pos4_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos0_cells",
+              "MMStack_Pos1_cells",
+              "MMStack_Pos2_cells",
+              "MMStack_Pos3_cells",
+              "MMStack_Pos4_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "regionDisplay": {
+            "lut": "glasbey",
+            "name": "positions",
+            "opacity": 0.5,
+            "showTable": true,
+            "sources": {
+              "0": [
+                "MMStack_Pos0_cells",
+                "MMStack_Pos0_genes",
+                "MMStack_Pos0_membrane-marker",
+                "MMStack_Pos0_nucleus-marker"
+              ],
+              "1": [
+                "MMStack_Pos1_cells",
+                "MMStack_Pos1_genes",
+                "MMStack_Pos1_membrane-marker",
+                "MMStack_Pos1_nucleus-marker"
+              ],
+              "2": [
+                "MMStack_Pos2_cells",
+                "MMStack_Pos2_genes",
+                "MMStack_Pos2_membrane-marker",
+                "MMStack_Pos2_nucleus-marker"
+              ],
+              "3": [
+                "MMStack_Pos3_cells",
+                "MMStack_Pos3_genes",
+                "MMStack_Pos3_membrane-marker",
+                "MMStack_Pos3_nucleus-marker"
+              ],
+              "4": [
+                "MMStack_Pos4_cells",
+                "MMStack_Pos4_genes",
+                "MMStack_Pos4_membrane-marker",
+                "MMStack_Pos4_nucleus-marker"
+              ]
+            },
+            "tableSource": "positions"
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              2094.4,
+              0.0,
+              1.0,
+              0.0,
+              843.2,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos0_cells",
+              "MMStack_Pos0_genes",
+              "MMStack_Pos0_membrane-marker",
+              "MMStack_Pos0_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              2094.4,
+              0.0,
+              1.0,
+              0.0,
+              1191.3600000000001,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos1_cells",
+              "MMStack_Pos1_genes",
+              "MMStack_Pos1_membrane-marker",
+              "MMStack_Pos1_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              2094.4,
+              0.0,
+              1.0,
+              0.0,
+              1539.5200000000002,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos2_cells",
+              "MMStack_Pos2_genes",
+              "MMStack_Pos2_membrane-marker",
+              "MMStack_Pos2_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              2094.4,
+              0.0,
+              1.0,
+              0.0,
+              1887.68,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos3_cells",
+              "MMStack_Pos3_genes",
+              "MMStack_Pos3_membrane-marker",
+              "MMStack_Pos3_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              2099.84,
+              0.0,
+              1.0,
+              0.0,
+              2235.84,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos4_cells",
+              "MMStack_Pos4_genes",
+              "MMStack_Pos4_membrane-marker",
+              "MMStack_Pos4_nucleus-marker"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "bookmark"
+    },
+    "stitched-view": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              271.0,
+              9440.0
+            ],
+            "name": "membrane-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos0_membrane-marker",
+              "MMStack_Pos10_membrane-marker",
+              "MMStack_Pos11_membrane-marker",
+              "MMStack_Pos12_membrane-marker",
+              "MMStack_Pos13_membrane-marker",
+              "MMStack_Pos14_membrane-marker",
+              "MMStack_Pos15_membrane-marker",
+              "MMStack_Pos16_membrane-marker",
+              "MMStack_Pos17_membrane-marker",
+              "MMStack_Pos18_membrane-marker",
+              "MMStack_Pos19_membrane-marker",
+              "MMStack_Pos1_membrane-marker",
+              "MMStack_Pos20_membrane-marker",
+              "MMStack_Pos21_membrane-marker",
+              "MMStack_Pos22_membrane-marker",
+              "MMStack_Pos23_membrane-marker",
+              "MMStack_Pos24_membrane-marker",
+              "MMStack_Pos25_membrane-marker",
+              "MMStack_Pos26_membrane-marker",
+              "MMStack_Pos27_membrane-marker",
+              "MMStack_Pos28_membrane-marker",
+              "MMStack_Pos29_membrane-marker",
+              "MMStack_Pos2_membrane-marker",
+              "MMStack_Pos30_membrane-marker",
+              "MMStack_Pos31_membrane-marker",
+              "MMStack_Pos32_membrane-marker",
+              "MMStack_Pos33_membrane-marker",
+              "MMStack_Pos34_membrane-marker",
+              "MMStack_Pos35_membrane-marker",
+              "MMStack_Pos36_membrane-marker",
+              "MMStack_Pos37_membrane-marker",
+              "MMStack_Pos38_membrane-marker",
+              "MMStack_Pos39_membrane-marker",
+              "MMStack_Pos3_membrane-marker",
+              "MMStack_Pos4_membrane-marker",
+              "MMStack_Pos5_membrane-marker",
+              "MMStack_Pos6_membrane-marker",
+              "MMStack_Pos7_membrane-marker",
+              "MMStack_Pos8_membrane-marker",
+              "MMStack_Pos9_membrane-marker"
+            ],
+            "visible": true
+          }
+        },
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              100.0,
+              5040.0
+            ],
+            "name": "nucleus-marker",
+            "opacity": 1.0,
+            "sources": [
+              "MMStack_Pos0_nucleus-marker",
+              "MMStack_Pos10_nucleus-marker",
+              "MMStack_Pos11_nucleus-marker",
+              "MMStack_Pos12_nucleus-marker",
+              "MMStack_Pos13_nucleus-marker",
+              "MMStack_Pos14_nucleus-marker",
+              "MMStack_Pos15_nucleus-marker",
+              "MMStack_Pos16_nucleus-marker",
+              "MMStack_Pos17_nucleus-marker",
+              "MMStack_Pos18_nucleus-marker",
+              "MMStack_Pos19_nucleus-marker",
+              "MMStack_Pos1_nucleus-marker",
+              "MMStack_Pos20_nucleus-marker",
+              "MMStack_Pos21_nucleus-marker",
+              "MMStack_Pos22_nucleus-marker",
+              "MMStack_Pos23_nucleus-marker",
+              "MMStack_Pos24_nucleus-marker",
+              "MMStack_Pos25_nucleus-marker",
+              "MMStack_Pos26_nucleus-marker",
+              "MMStack_Pos27_nucleus-marker",
+              "MMStack_Pos28_nucleus-marker",
+              "MMStack_Pos29_nucleus-marker",
+              "MMStack_Pos2_nucleus-marker",
+              "MMStack_Pos30_nucleus-marker",
+              "MMStack_Pos31_nucleus-marker",
+              "MMStack_Pos32_nucleus-marker",
+              "MMStack_Pos33_nucleus-marker",
+              "MMStack_Pos34_nucleus-marker",
+              "MMStack_Pos35_nucleus-marker",
+              "MMStack_Pos36_nucleus-marker",
+              "MMStack_Pos37_nucleus-marker",
+              "MMStack_Pos38_nucleus-marker",
+              "MMStack_Pos39_nucleus-marker",
+              "MMStack_Pos3_nucleus-marker",
+              "MMStack_Pos4_nucleus-marker",
+              "MMStack_Pos5_nucleus-marker",
+              "MMStack_Pos6_nucleus-marker",
+              "MMStack_Pos7_nucleus-marker",
+              "MMStack_Pos8_nucleus-marker",
+              "MMStack_Pos9_nucleus-marker"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "spotDisplay": {
+            "lut": "glasbey",
+            "name": "genes",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos0_genes",
+              "MMStack_Pos10_genes",
+              "MMStack_Pos11_genes",
+              "MMStack_Pos12_genes",
+              "MMStack_Pos13_genes",
+              "MMStack_Pos14_genes",
+              "MMStack_Pos15_genes",
+              "MMStack_Pos16_genes",
+              "MMStack_Pos17_genes",
+              "MMStack_Pos18_genes",
+              "MMStack_Pos19_genes",
+              "MMStack_Pos1_genes",
+              "MMStack_Pos20_genes",
+              "MMStack_Pos21_genes",
+              "MMStack_Pos22_genes",
+              "MMStack_Pos23_genes",
+              "MMStack_Pos24_genes",
+              "MMStack_Pos25_genes",
+              "MMStack_Pos26_genes",
+              "MMStack_Pos27_genes",
+              "MMStack_Pos28_genes",
+              "MMStack_Pos29_genes",
+              "MMStack_Pos2_genes",
+              "MMStack_Pos30_genes",
+              "MMStack_Pos31_genes",
+              "MMStack_Pos32_genes",
+              "MMStack_Pos33_genes",
+              "MMStack_Pos34_genes",
+              "MMStack_Pos35_genes",
+              "MMStack_Pos36_genes",
+              "MMStack_Pos37_genes",
+              "MMStack_Pos38_genes",
+              "MMStack_Pos39_genes",
+              "MMStack_Pos3_genes",
+              "MMStack_Pos4_genes",
+              "MMStack_Pos5_genes",
+              "MMStack_Pos6_genes",
+              "MMStack_Pos7_genes",
+              "MMStack_Pos8_genes",
+              "MMStack_Pos9_genes"
+            ],
+            "spotRadius": 0.5,
+            "visible": false
+          }
+        },
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "cells",
+            "opacity": 0.5,
+            "showTable": false,
+            "sources": [
+              "MMStack_Pos0_cells",
+              "MMStack_Pos10_cells",
+              "MMStack_Pos11_cells",
+              "MMStack_Pos12_cells",
+              "MMStack_Pos13_cells",
+              "MMStack_Pos14_cells",
+              "MMStack_Pos15_cells",
+              "MMStack_Pos16_cells",
+              "MMStack_Pos17_cells",
+              "MMStack_Pos18_cells",
+              "MMStack_Pos19_cells",
+              "MMStack_Pos1_cells",
+              "MMStack_Pos20_cells",
+              "MMStack_Pos21_cells",
+              "MMStack_Pos22_cells",
+              "MMStack_Pos23_cells",
+              "MMStack_Pos24_cells",
+              "MMStack_Pos25_cells",
+              "MMStack_Pos26_cells",
+              "MMStack_Pos27_cells",
+              "MMStack_Pos28_cells",
+              "MMStack_Pos29_cells",
+              "MMStack_Pos2_cells",
+              "MMStack_Pos30_cells",
+              "MMStack_Pos31_cells",
+              "MMStack_Pos32_cells",
+              "MMStack_Pos33_cells",
+              "MMStack_Pos34_cells",
+              "MMStack_Pos35_cells",
+              "MMStack_Pos36_cells",
+              "MMStack_Pos37_cells",
+              "MMStack_Pos38_cells",
+              "MMStack_Pos39_cells",
+              "MMStack_Pos3_cells",
+              "MMStack_Pos4_cells",
+              "MMStack_Pos5_cells",
+              "MMStack_Pos6_cells",
+              "MMStack_Pos7_cells",
+              "MMStack_Pos8_cells",
+              "MMStack_Pos9_cells"
+            ],
+            "visible": false
+          }
+        },
+        {
+          "regionDisplay": {
+            "lut": "glasbey",
+            "name": "positions",
+            "opacity": 0.5,
+            "showTable": true,
+            "sources": {
+              "0": [
+                "MMStack_Pos0_cells",
+                "MMStack_Pos0_genes",
+                "MMStack_Pos0_membrane-marker",
+                "MMStack_Pos0_nucleus-marker"
+              ],
+              "1": [
+                "MMStack_Pos1_cells",
+                "MMStack_Pos1_genes",
+                "MMStack_Pos1_membrane-marker",
+                "MMStack_Pos1_nucleus-marker"
+              ],
+              "10": [
+                "MMStack_Pos10_cells",
+                "MMStack_Pos10_genes",
+                "MMStack_Pos10_membrane-marker",
+                "MMStack_Pos10_nucleus-marker"
+              ],
+              "11": [
+                "MMStack_Pos11_cells",
+                "MMStack_Pos11_genes",
+                "MMStack_Pos11_membrane-marker",
+                "MMStack_Pos11_nucleus-marker"
+              ],
+              "12": [
+                "MMStack_Pos12_cells",
+                "MMStack_Pos12_genes",
+                "MMStack_Pos12_membrane-marker",
+                "MMStack_Pos12_nucleus-marker"
+              ],
+              "13": [
+                "MMStack_Pos13_cells",
+                "MMStack_Pos13_genes",
+                "MMStack_Pos13_membrane-marker",
+                "MMStack_Pos13_nucleus-marker"
+              ],
+              "14": [
+                "MMStack_Pos14_cells",
+                "MMStack_Pos14_genes",
+                "MMStack_Pos14_membrane-marker",
+                "MMStack_Pos14_nucleus-marker"
+              ],
+              "15": [
+                "MMStack_Pos15_cells",
+                "MMStack_Pos15_genes",
+                "MMStack_Pos15_membrane-marker",
+                "MMStack_Pos15_nucleus-marker"
+              ],
+              "16": [
+                "MMStack_Pos16_cells",
+                "MMStack_Pos16_genes",
+                "MMStack_Pos16_membrane-marker",
+                "MMStack_Pos16_nucleus-marker"
+              ],
+              "17": [
+                "MMStack_Pos17_cells",
+                "MMStack_Pos17_genes",
+                "MMStack_Pos17_membrane-marker",
+                "MMStack_Pos17_nucleus-marker"
+              ],
+              "18": [
+                "MMStack_Pos18_cells",
+                "MMStack_Pos18_genes",
+                "MMStack_Pos18_membrane-marker",
+                "MMStack_Pos18_nucleus-marker"
+              ],
+              "19": [
+                "MMStack_Pos19_cells",
+                "MMStack_Pos19_genes",
+                "MMStack_Pos19_membrane-marker",
+                "MMStack_Pos19_nucleus-marker"
+              ],
+              "2": [
+                "MMStack_Pos2_cells",
+                "MMStack_Pos2_genes",
+                "MMStack_Pos2_membrane-marker",
+                "MMStack_Pos2_nucleus-marker"
+              ],
+              "20": [
+                "MMStack_Pos20_cells",
+                "MMStack_Pos20_genes",
+                "MMStack_Pos20_membrane-marker",
+                "MMStack_Pos20_nucleus-marker"
+              ],
+              "21": [
+                "MMStack_Pos21_cells",
+                "MMStack_Pos21_genes",
+                "MMStack_Pos21_membrane-marker",
+                "MMStack_Pos21_nucleus-marker"
+              ],
+              "22": [
+                "MMStack_Pos22_cells",
+                "MMStack_Pos22_genes",
+                "MMStack_Pos22_membrane-marker",
+                "MMStack_Pos22_nucleus-marker"
+              ],
+              "23": [
+                "MMStack_Pos23_cells",
+                "MMStack_Pos23_genes",
+                "MMStack_Pos23_membrane-marker",
+                "MMStack_Pos23_nucleus-marker"
+              ],
+              "24": [
+                "MMStack_Pos24_cells",
+                "MMStack_Pos24_genes",
+                "MMStack_Pos24_membrane-marker",
+                "MMStack_Pos24_nucleus-marker"
+              ],
+              "25": [
+                "MMStack_Pos25_cells",
+                "MMStack_Pos25_genes",
+                "MMStack_Pos25_membrane-marker",
+                "MMStack_Pos25_nucleus-marker"
+              ],
+              "26": [
+                "MMStack_Pos26_cells",
+                "MMStack_Pos26_genes",
+                "MMStack_Pos26_membrane-marker",
+                "MMStack_Pos26_nucleus-marker"
+              ],
+              "27": [
+                "MMStack_Pos27_cells",
+                "MMStack_Pos27_genes",
+                "MMStack_Pos27_membrane-marker",
+                "MMStack_Pos27_nucleus-marker"
+              ],
+              "28": [
+                "MMStack_Pos28_cells",
+                "MMStack_Pos28_genes",
+                "MMStack_Pos28_membrane-marker",
+                "MMStack_Pos28_nucleus-marker"
+              ],
+              "29": [
+                "MMStack_Pos29_cells",
+                "MMStack_Pos29_genes",
+                "MMStack_Pos29_membrane-marker",
+                "MMStack_Pos29_nucleus-marker"
+              ],
+              "3": [
+                "MMStack_Pos3_cells",
+                "MMStack_Pos3_genes",
+                "MMStack_Pos3_membrane-marker",
+                "MMStack_Pos3_nucleus-marker"
+              ],
+              "30": [
+                "MMStack_Pos30_cells",
+                "MMStack_Pos30_genes",
+                "MMStack_Pos30_membrane-marker",
+                "MMStack_Pos30_nucleus-marker"
+              ],
+              "31": [
+                "MMStack_Pos31_cells",
+                "MMStack_Pos31_genes",
+                "MMStack_Pos31_membrane-marker",
+                "MMStack_Pos31_nucleus-marker"
+              ],
+              "32": [
+                "MMStack_Pos32_cells",
+                "MMStack_Pos32_genes",
+                "MMStack_Pos32_membrane-marker",
+                "MMStack_Pos32_nucleus-marker"
+              ],
+              "33": [
+                "MMStack_Pos33_cells",
+                "MMStack_Pos33_genes",
+                "MMStack_Pos33_membrane-marker",
+                "MMStack_Pos33_nucleus-marker"
+              ],
+              "34": [
+                "MMStack_Pos34_cells",
+                "MMStack_Pos34_genes",
+                "MMStack_Pos34_membrane-marker",
+                "MMStack_Pos34_nucleus-marker"
+              ],
+              "35": [
+                "MMStack_Pos35_cells",
+                "MMStack_Pos35_genes",
+                "MMStack_Pos35_membrane-marker",
+                "MMStack_Pos35_nucleus-marker"
+              ],
+              "36": [
+                "MMStack_Pos36_cells",
+                "MMStack_Pos36_genes",
+                "MMStack_Pos36_membrane-marker",
+                "MMStack_Pos36_nucleus-marker"
+              ],
+              "37": [
+                "MMStack_Pos37_cells",
+                "MMStack_Pos37_genes",
+                "MMStack_Pos37_membrane-marker",
+                "MMStack_Pos37_nucleus-marker"
+              ],
+              "38": [
+                "MMStack_Pos38_cells",
+                "MMStack_Pos38_genes",
+                "MMStack_Pos38_membrane-marker",
+                "MMStack_Pos38_nucleus-marker"
+              ],
+              "39": [
+                "MMStack_Pos39_cells",
+                "MMStack_Pos39_genes",
+                "MMStack_Pos39_membrane-marker",
+                "MMStack_Pos39_nucleus-marker"
+              ],
+              "4": [
+                "MMStack_Pos4_cells",
+                "MMStack_Pos4_genes",
+                "MMStack_Pos4_membrane-marker",
+                "MMStack_Pos4_nucleus-marker"
+              ],
+              "5": [
+                "MMStack_Pos5_cells",
+                "MMStack_Pos5_genes",
+                "MMStack_Pos5_membrane-marker",
+                "MMStack_Pos5_nucleus-marker"
+              ],
+              "6": [
+                "MMStack_Pos6_cells",
+                "MMStack_Pos6_genes",
+                "MMStack_Pos6_membrane-marker",
+                "MMStack_Pos6_nucleus-marker"
+              ],
+              "7": [
+                "MMStack_Pos7_cells",
+                "MMStack_Pos7_genes",
+                "MMStack_Pos7_membrane-marker",
+                "MMStack_Pos7_nucleus-marker"
+              ],
+              "8": [
+                "MMStack_Pos8_cells",
+                "MMStack_Pos8_genes",
+                "MMStack_Pos8_membrane-marker",
+                "MMStack_Pos8_nucleus-marker"
+              ],
+              "9": [
+                "MMStack_Pos9_cells",
+                "MMStack_Pos9_genes",
+                "MMStack_Pos9_membrane-marker",
+                "MMStack_Pos9_nucleus-marker"
+              ]
+            },
+            "tableSource": "positions"
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              2094.4,
+              0.0,
+              1.0,
+              0.0,
+              843.2,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos0_cells",
+              "MMStack_Pos0_genes",
+              "MMStack_Pos0_membrane-marker",
+              "MMStack_Pos0_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              2094.4,
+              0.0,
+              1.0,
+              0.0,
+              1191.3600000000001,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos1_cells",
+              "MMStack_Pos1_genes",
+              "MMStack_Pos1_membrane-marker",
+              "MMStack_Pos1_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              2094.4,
+              0.0,
+              1.0,
+              0.0,
+              1539.5200000000002,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos2_cells",
+              "MMStack_Pos2_genes",
+              "MMStack_Pos2_membrane-marker",
+              "MMStack_Pos2_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              2094.4,
+              0.0,
+              1.0,
+              0.0,
+              1887.68,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos3_cells",
+              "MMStack_Pos3_genes",
+              "MMStack_Pos3_membrane-marker",
+              "MMStack_Pos3_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              2099.84,
+              0.0,
+              1.0,
+              0.0,
+              2235.84,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos4_cells",
+              "MMStack_Pos4_genes",
+              "MMStack_Pos4_membrane-marker",
+              "MMStack_Pos4_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              1751.68,
+              0.0,
+              1.0,
+              0.0,
+              2491.52,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos5_cells",
+              "MMStack_Pos5_genes",
+              "MMStack_Pos5_membrane-marker",
+              "MMStack_Pos5_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              1751.68,
+              0.0,
+              1.0,
+              0.0,
+              2143.36,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos6_cells",
+              "MMStack_Pos6_genes",
+              "MMStack_Pos6_membrane-marker",
+              "MMStack_Pos6_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              1746.2400000000002,
+              0.0,
+              1.0,
+              0.0,
+              1795.2,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos7_cells",
+              "MMStack_Pos7_genes",
+              "MMStack_Pos7_membrane-marker",
+              "MMStack_Pos7_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              1746.2400000000002,
+              0.0,
+              1.0,
+              0.0,
+              1447.0400000000002,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos8_cells",
+              "MMStack_Pos8_genes",
+              "MMStack_Pos8_membrane-marker",
+              "MMStack_Pos8_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              1746.2400000000002,
+              0.0,
+              1.0,
+              0.0,
+              1098.88,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos9_cells",
+              "MMStack_Pos9_genes",
+              "MMStack_Pos9_membrane-marker",
+              "MMStack_Pos9_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              1746.2400000000002,
+              0.0,
+              1.0,
+              0.0,
+              750.72,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos10_cells",
+              "MMStack_Pos10_genes",
+              "MMStack_Pos10_membrane-marker",
+              "MMStack_Pos10_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              1746.2400000000002,
+              0.0,
+              1.0,
+              0.0,
+              402.56,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos11_cells",
+              "MMStack_Pos11_genes",
+              "MMStack_Pos11_membrane-marker",
+              "MMStack_Pos11_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              1398.0800000000002,
+              0.0,
+              1.0,
+              0.0,
+              87.04,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos12_cells",
+              "MMStack_Pos12_genes",
+              "MMStack_Pos12_membrane-marker",
+              "MMStack_Pos12_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              1398.0800000000002,
+              0.0,
+              1.0,
+              0.0,
+              560.32,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos13_cells",
+              "MMStack_Pos13_genes",
+              "MMStack_Pos13_membrane-marker",
+              "MMStack_Pos13_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              1398.0800000000002,
+              0.0,
+              1.0,
+              0.0,
+              908.48,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos14_cells",
+              "MMStack_Pos14_genes",
+              "MMStack_Pos14_membrane-marker",
+              "MMStack_Pos14_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              1392.64,
+              0.0,
+              1.0,
+              0.0,
+              1256.64,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos15_cells",
+              "MMStack_Pos15_genes",
+              "MMStack_Pos15_membrane-marker",
+              "MMStack_Pos15_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              1398.0800000000002,
+              0.0,
+              1.0,
+              0.0,
+              1610.24,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos16_cells",
+              "MMStack_Pos16_genes",
+              "MMStack_Pos16_membrane-marker",
+              "MMStack_Pos16_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              1398.0800000000002,
+              0.0,
+              1.0,
+              0.0,
+              1958.4,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos17_cells",
+              "MMStack_Pos17_genes",
+              "MMStack_Pos17_membrane-marker",
+              "MMStack_Pos17_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              1403.5200000000002,
+              0.0,
+              1.0,
+              0.0,
+              2306.56,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos18_cells",
+              "MMStack_Pos18_genes",
+              "MMStack_Pos18_membrane-marker",
+              "MMStack_Pos18_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              1403.5200000000002,
+              0.0,
+              1.0,
+              0.0,
+              2660.1600000000003,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos19_cells",
+              "MMStack_Pos19_genes",
+              "MMStack_Pos19_membrane-marker",
+              "MMStack_Pos19_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              1055.3600000000001,
+              0.0,
+              1.0,
+              0.0,
+              2573.1200000000003,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos20_cells",
+              "MMStack_Pos20_genes",
+              "MMStack_Pos20_membrane-marker",
+              "MMStack_Pos20_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              1055.3600000000001,
+              0.0,
+              1.0,
+              0.0,
+              2224.96,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos21_cells",
+              "MMStack_Pos21_genes",
+              "MMStack_Pos21_membrane-marker",
+              "MMStack_Pos21_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              1055.3600000000001,
+              0.0,
+              1.0,
+              0.0,
+              1534.0800000000002,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos22_cells",
+              "MMStack_Pos22_genes",
+              "MMStack_Pos22_membrane-marker",
+              "MMStack_Pos22_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              1044.48,
+              0.0,
+              1.0,
+              0.0,
+              1185.92,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos23_cells",
+              "MMStack_Pos23_genes",
+              "MMStack_Pos23_membrane-marker",
+              "MMStack_Pos23_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              1049.92,
+              0.0,
+              1.0,
+              0.0,
+              837.7600000000001,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos24_cells",
+              "MMStack_Pos24_genes",
+              "MMStack_Pos24_membrane-marker",
+              "MMStack_Pos24_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              1049.92,
+              0.0,
+              1.0,
+              0.0,
+              489.6,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos25_cells",
+              "MMStack_Pos25_genes",
+              "MMStack_Pos25_membrane-marker",
+              "MMStack_Pos25_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              1049.92,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos26_cells",
+              "MMStack_Pos26_genes",
+              "MMStack_Pos26_membrane-marker",
+              "MMStack_Pos26_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              701.7600000000001,
+              0.0,
+              1.0,
+              0.0,
+              163.20000000000002,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos27_cells",
+              "MMStack_Pos27_genes",
+              "MMStack_Pos27_membrane-marker",
+              "MMStack_Pos27_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              701.7600000000001,
+              0.0,
+              1.0,
+              0.0,
+              511.36,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos28_cells",
+              "MMStack_Pos28_genes",
+              "MMStack_Pos28_membrane-marker",
+              "MMStack_Pos28_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              701.7600000000001,
+              0.0,
+              1.0,
+              0.0,
+              859.5200000000001,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos29_cells",
+              "MMStack_Pos29_genes",
+              "MMStack_Pos29_membrane-marker",
+              "MMStack_Pos29_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              696.32,
+              0.0,
+              1.0,
+              0.0,
+              1207.68,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos30_cells",
+              "MMStack_Pos30_genes",
+              "MMStack_Pos30_membrane-marker",
+              "MMStack_Pos30_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              707.2,
+              0.0,
+              1.0,
+              0.0,
+              2224.96,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos31_cells",
+              "MMStack_Pos31_genes",
+              "MMStack_Pos31_membrane-marker",
+              "MMStack_Pos31_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              587.5200000000001,
+              0.0,
+              1.0,
+              0.0,
+              1876.8000000000002,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos32_cells",
+              "MMStack_Pos32_genes",
+              "MMStack_Pos32_membrane-marker",
+              "MMStack_Pos32_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              544.0,
+              0.0,
+              1.0,
+              0.0,
+              1528.64,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos33_cells",
+              "MMStack_Pos33_genes",
+              "MMStack_Pos33_membrane-marker",
+              "MMStack_Pos33_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              348.16,
+              0.0,
+              1.0,
+              0.0,
+              1180.48,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos34_cells",
+              "MMStack_Pos34_genes",
+              "MMStack_Pos34_membrane-marker",
+              "MMStack_Pos34_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              353.6,
+              0.0,
+              1.0,
+              0.0,
+              832.32,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos35_cells",
+              "MMStack_Pos35_genes",
+              "MMStack_Pos35_membrane-marker",
+              "MMStack_Pos35_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              353.6,
+              0.0,
+              1.0,
+              0.0,
+              484.16,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos36_cells",
+              "MMStack_Pos36_genes",
+              "MMStack_Pos36_membrane-marker",
+              "MMStack_Pos36_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              5.44,
+              0.0,
+              1.0,
+              0.0,
+              571.2,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos37_cells",
+              "MMStack_Pos37_genes",
+              "MMStack_Pos37_membrane-marker",
+              "MMStack_Pos37_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              919.36,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos38_cells",
+              "MMStack_Pos38_genes",
+              "MMStack_Pos38_membrane-marker",
+              "MMStack_Pos38_nucleus-marker"
+            ]
+          }
+        },
+        {
+          "affine": {
+            "parameters": [
+              1.0,
+              0.0,
+              -0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1267.52,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "sources": [
+              "MMStack_Pos39_cells",
+              "MMStack_Pos39_genes",
+              "MMStack_Pos39_membrane-marker",
+              "MMStack_Pos39_nucleus-marker"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "bookmark"
+    }
+  }
+}

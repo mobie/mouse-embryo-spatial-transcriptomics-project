@@ -1,0 +1,7 @@
+{
+  "datasets": [
+    "embryo3"
+  ],
+  "defaultDataset": "embryo3",
+  "specVersion": "0.3.0"
+}

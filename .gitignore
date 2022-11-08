@@ -1,0 +1,2 @@
+*.ome.zarr
+__pycache__/

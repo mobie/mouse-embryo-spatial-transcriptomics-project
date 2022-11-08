@@ -30,15 +30,14 @@ def add_image_data(ds_name):
     ]
 
     sources = mobie.metadata.read_dataset_metadata(ds_folder)["sources"]
-    n_channels = len(CHANNEL_TO_NAME)
     for file_path in file_paths:
         fname = os.path.basename(file_path)[:-len(".ome.zarr")]
         with zarr.open(file_path, "r") as f:
-            this_channels = f["0"].shape[0]
-            assert this_channels == n_channels
+            this_channels = range(f["0"].shape[0])
 
-        for channel_id in range(n_channels):
-            name = f"{fname}_{CHANNEL_TO_NAME[channel_id]}"
+        for channel_id, channel_name in CHANNEL_TO_NAME.items():
+            assert channel_id in this_channels
+            name = f"{fname}_{channel_name}"
             if name in sources:
                 continue
             mobie.metadata.add_source_to_dataset(
@@ -167,7 +166,9 @@ def add_spot_data(ds_name):
         )
         assert os.path.exists(table_path)
         table = pd.read_csv(table_path)
-        table.insert(loc=0, column="spot_id", value=np.arange(1, len(table) + 1).astype("uint64"))
+        table.insert(
+            loc=0, column="spot_id", value=np.arange(1, len(table) + 1).astype("uint64")
+        )
         table, bb_min, bb_max = scale_table_and_compute_bounding_box(table, ds_folder, pos)
         mobie.add_spots(table, ROOT, ds_name, name, unit="micrometer",
                         bounding_box_min=bb_min, bounding_box_max=bb_max,
@@ -206,7 +207,8 @@ def add_position_views(ds_name, clims):
         display_group_names.extend(SEG_NAMES)
         source_types.extend(len(seg_sources) * ["segmentation"])
         display_settings.extend([
-            {"lut": "glasbey", "opacity": 0.5, "visible": False, "showTable": False} for seg_name in SEG_NAMES
+            {"lut": "glasbey", "opacity": 0.5, "visible": False, "showTable": False}
+            for seg_name in SEG_NAMES
         ])
 
         # add the spot sources for this view
@@ -215,11 +217,14 @@ def add_position_views(ds_name, clims):
         display_group_names.extend(["genes"])
         source_types.extend(["spots"])
         display_settings.extend([
-            {"lut": "glasbey", "opacity": 0.5, "visible": False, "showTable": False, "spotRadius": SPOT_RADIUS}
+            {"lut": "glasbey", "opacity": 0.5,
+             "visible": False, "showTable": False, "spotRadius": SPOT_RADIUS}
         ])
 
-        position_view = mobie.metadata.get_view(display_group_names, source_types, sources, display_settings,
-                                                is_exclusive=True, menu_name="positions")
+        position_view = mobie.metadata.get_view(
+            display_group_names, source_types, sources, display_settings,
+            is_exclusive=True, menu_name="positions"
+        )
         mobie.metadata.add_view_to_dataset(ds_folder, name, position_view)
         if default_view is None:
             default_view = position_view

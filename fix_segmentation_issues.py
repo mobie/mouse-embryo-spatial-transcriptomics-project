@@ -2,17 +2,18 @@ import os
 from glob import glob
 
 import numpy as np
+import pandas as pd
 import vigra
 import z5py
 from common import ROOT
-from mobie.tables import compute_default_table
+from skimage.measure import regionprops
 from skimage.transform import resize
+from tqdm import tqdm
 
 
-def fix_segmentation_issues(seg_path, table_folder):
+def fix_segmentation(seg_path):
     with z5py.File(seg_path, "a", dimension_separator="/") as f:
         ds = f["labels/cells"]
-        resolution = ds.attrs["multiscales"][0]["datasets"][0]["coordinateTransformations"][0]["scale"]
         seg = ds["0"][:]
 
         # bigger 4000 pix: this is background
@@ -41,11 +42,46 @@ def fix_segmentation_issues(seg_path, table_folder):
                 new_seg, dset.shape, order=0, anti_aliasing=False, preserve_range=True
             ).astype(new_seg.dtype)
 
+
+def _compute_table(seg_path, seg_key, table_path):
+    ndim = 3
+    with z5py.File(seg_path, "r", dimension_separator="/") as f:
+        seg = f[seg_key]
+        resolution = seg.attrs["multiscales"][0]["datasets"][0]["coordinateTransformations"][0]["scale"]
+        seg = seg["0"][:]
+
+    # centers = vigra.filters.eccentricityCenters(seg.astype("uint32"))
+    tab = []
+    for z in range(seg.shape[0]):
+        props = regionprops(seg[z:z+1])
+        ztab = np.array([
+            [int(p.label)]
+            + [ce / res for ce, res in zip(p.centroid, resolution)]
+            + [float(bb) / res for bb, res in zip(p.bbox[:ndim], resolution)]
+            + [float(bb) / res for bb, res in zip(p.bbox[ndim:], resolution)]
+            + [p.area]
+            for p in props
+        ])
+        ztab[:, 1] += resolution[0] * z
+        ztab[:, 4] += resolution[0] * z
+        ztab[:, 7] += resolution[0] * z
+        tab.append(ztab)
+
+    tab = np.concatenate(tab, axis=0)
+    col_names = ["label_id",
+                 "anchor_z", "anchor_y", "anchor_x",
+                 "bb_min_z", "bb_min_y", "bb_min_x",
+                 "bb_max_z", "bb_max_y", "bb_max_x", "n_pixels"]
+    assert tab.shape[1] == len(col_names), f"{tab.shape}, {len(col_names)}"
+    tab = pd.DataFrame(tab, columns=col_names)
+    tab.to_csv(table_path, sep="\t", index=False)
+    print(table_path, ":", len(tab))
+
+
+def fix_table(seg_path, table_folder):
     table_path = os.path.join(table_folder, "default.tsv")
-    seg_key = "labels/cells/0"
-    compute_default_table(seg_path, seg_key, table_path, resolution,
-                          tmp_folder=f"tmps/tab_{os.path.basename(seg_path)}",
-                          target="local", max_jobs=8)
+    seg_key = "labels/cells"
+    _compute_table(seg_path, seg_key, table_path)
 
 
 def main():
@@ -56,18 +92,20 @@ def main():
     seg_paths.sort()
     assert len(seg_paths) > 0
 
-    table_folders = glob(os.path.join(ds_folder, "tables", "*_cells"))
-    table_folders.sort()
-    assert len(seg_paths) == len(table_folders)
+    # for seg_path in tqdm(seg_paths):
+    #     fix_segmentation(seg_path)
 
-    for seg_path, table_folder in zip(seg_paths, table_folders):
-        print(seg_path, table_folder)
-        fix_segmentation_issues(seg_path, table_folder)
+    # seg_paths = ["/g/kreshuk/data/marioni/shila/mouse-atlas-2020/ngff/embryo3/MMStack_Pos23.ome.zarr"]
+    # table_folders = ["/g/kreshuk/data/marioni/shila/mouse-atlas-2020/ngff/embryo3/tables/MMStack_Pos23_cells"]
+    for seg_path in seg_paths:
+        pos = os.path.basename(seg_path).split("_")[1].split(".")[0]
+        table_folder = os.path.join(ds_folder, "tables", f"MMStack_{pos}_cells")
+        assert os.path.exists(table_folder), table_folder
+        fix_table(seg_path, table_folder)
 
 
 def undo():
     import imageio
-    from tqdm import tqdm
 
     paths = glob("/g/kreshuk/data/marioni/shila/mouse-atlas-2020/segmentation/embryo3/cells/MMStack_Pos*.ome.tif")
     paths.sort()
@@ -105,5 +143,5 @@ def undo():
 
 
 if __name__ == "__main__":
-    undo()
+    # undo()
     main()
