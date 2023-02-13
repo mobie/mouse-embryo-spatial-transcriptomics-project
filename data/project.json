@@ -3,5 +3,8 @@
     "embryo3"
   ],
   "defaultDataset": "embryo3",
-  "specVersion": "0.3.0"
+  "specVersion": "0.3.0",
+  "references": [
+    https://github.com/mobie/mouse-embryo-spatial-transcriptomics-project
+  ],
 }
