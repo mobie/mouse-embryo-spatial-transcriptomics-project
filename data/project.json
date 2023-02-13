@@ -3,8 +3,9 @@
     "embryo3"
   ],
   "defaultDataset": "embryo3",
-  "specVersion": "0.3.0",
+  "description": "Lohoff et al. (2021) Spatial Transcripomics in Mouse Embryo, Nature Biotechnology",
   "references": [
-   "https://doi.org/10.1038/s41587-021-01006-2"
-  ]
+    "https://doi.org/10.1038/s41587-021-01006-2"
+  ],
+  "specVersion": "0.3.0"
 }
